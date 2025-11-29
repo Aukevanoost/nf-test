@@ -12,7 +12,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "ng-bootstrap-app:esbuild:production"
@@ -28,7 +30,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "ng-bootstrap-app:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -131,7 +133,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "clarity-app:esbuild:production"
@@ -147,7 +151,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "clarity-app:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -250,7 +254,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "clarity-shell:esbuild:production"
@@ -266,7 +272,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "clarity-shell:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -366,7 +372,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "ag-grid-app:esbuild:production"
@@ -382,7 +390,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "ag-grid-app:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -482,7 +490,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "kendo-ui-app:esbuild:production"
@@ -498,7 +508,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "kendo-ui-app:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -601,7 +611,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "primeng:esbuild:production"
@@ -617,7 +629,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "primeng:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -717,7 +729,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "ng-zorro-app:esbuild:production"
@@ -733,7 +747,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "ng-zorro-app:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -833,7 +847,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "angular-material-app:esbuild:production"
@@ -849,7 +865,7 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "angular-material-app:serve-original:development",
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}
@@ -951,7 +967,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"cacheExternalArtifacts": true
+					},
 					"configurations": {
 						"production": {
 							"target": "angular-material-shell:esbuild:production"
@@ -970,7 +988,7 @@
 						 "buildNotifications": {
 							"enable": true
 						},
-						"rebuildDelay": 0,
+						"rebuildDelay": 500,
 						"dev": true,
 						"port": 0
 					}

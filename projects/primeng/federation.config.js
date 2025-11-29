@@ -23,8 +23,7 @@ module.exports = withNativeFederation({
         singleton: true,
         strictVersion: true,
         requiredVersion: "auto",
-        includeSecondaries: false,
-        build: 'separate'
+        includeSecondaries: {skip: "@primeuix/themes/aura/*"}
       },
     }),
   },
