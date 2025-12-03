@@ -2,11 +2,10 @@ const { withNativeFederation, shareAll } = require('@angular-architects/native-f
 const globalSkipList = require("../../global-skip-list");
 
 module.exports = withNativeFederation({
-
+  name: "angular-material-shell",
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
   },
-
   skip: [
     'rxjs/ajax',
     'rxjs/fetch',

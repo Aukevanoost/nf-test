@@ -31,6 +31,7 @@
 					"options": {
 						"target": "ng-bootstrap-app:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -152,6 +153,7 @@
 					"options": {
 						"target": "clarity-app:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -273,6 +275,7 @@
 					"options": {
 						"target": "clarity-shell:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -391,6 +394,7 @@
 					"options": {
 						"target": "ag-grid-app:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -509,6 +513,7 @@
 					"options": {
 						"target": "kendo-ui-app:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -630,6 +635,7 @@
 					"options": {
 						"target": "primeng:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -748,6 +754,7 @@
 					"options": {
 						"target": "ng-zorro-app:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -866,6 +873,7 @@
 					"options": {
 						"target": "angular-material-app:serve-original:development",
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
@@ -989,6 +997,7 @@
 							"enable": true
 						},
 						"rebuildDelay": 500,
+						"cacheExternalArtifacts": true,
 						"dev": true,
 						"port": 0
 					}
